@@ -1,5 +1,6 @@
 import type { Session } from "@auth/core/types"
 import { initTRPC, TRPCError } from "@trpc/server"
+import type { IContext } from "./context"
 
 export const t = initTRPC.context<IContext>().create()
 
@@ -45,4 +46,3 @@ export async function getUserIdFromSession(session: Session) {
 		message: "User not found!",
 	})
 }
-

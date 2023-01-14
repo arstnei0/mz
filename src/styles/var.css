@@ -1,0 +1,25 @@
+:root {
+	--c-primary: #acecf7;
+	--c-primary-lighter: rgba(217, 240, 244, 0.91);
+	--c-primary-darker: #1bd5f5;
+	--c-secondary: #d6f6dd;
+	--c-secondary-darker: #8fe3a1;
+	--c-secondary-lighter: #d6f6dd92;
+
+	--border-radius: 0.5rem;
+	--border-radius-l: 1rem;
+}
+
+html.l {
+    --c-text: black;
+	--c-bg: white;
+    --c-bg-rgb: 255, 255, 255;
+    --c-shadow-rgb: 0, 0, 0;
+}
+
+html.d {
+    --c-text: white;
+	--c-bg: #0F0E0E;
+    --c-bg-rgb: 0, 0, 0;
+    --c-shadow-rgb: 255, 255, 255;
+}
